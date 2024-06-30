@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      
+    <div className='bg-gradient-to-r from-cyan-500 to-blue-500 text-4xl'>
+      hello
     </div>
   );
 }
